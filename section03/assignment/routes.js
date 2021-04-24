@@ -43,7 +43,7 @@ const requestHandler = (req, res) => {
             console.log(parsedBody.split('=')[1]);
         }); 
         res.statusCode = 302;
-        res.setHeader('Location', '/');
+        res.setHeader('Location', '/users');
         res.end(); 
     }
 };
